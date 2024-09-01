@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display : flex;
+    width : 280px;
+    margin : auto;
+}
+
+li {
+    padding : 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.itemBox div {
+    display: inline-block;
+    margin: 5px;
+}
+
+.pokemonCard {
+    width: 200px;
+    background-color: lightgrey;
+    cursor: pointer;
+    color: white;
+    padding : 5px;
+}
+
+.pokemonCard:hover {
+    background-color: gray;
+}
